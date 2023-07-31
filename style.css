@@ -1,0 +1,254 @@
+.main{
+    background-color: black;
+}
+.body{
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.navbar p{
+    color: white;
+    margin-top: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navbar p:hover{
+    color: rgb(115, 90, 55);
+}
+
+.navbar button{
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.navbar button:hover{
+    background-color: rgb(197, 153, 153);
+    color: rgb(157, 236, 236);
+    border: none;
+}
+.carousell{
+    margin-top: -200px;
+}
+
+.nav-carousel img{
+    width: 200px;
+    height: 700px;
+}
+.carbtn{
+    color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.carbtn:hover{
+    color: rgb(250, 232, 199);
+    background-color: rgb(43, 41, 41);
+    border: none;
+    transition: 1s;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+.carousel-item {
+    display: flex;
+}
+  
+.carousel-item .col-lg-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding-left: 30px;
+    padding-right: 15px;
+    background-color: black;
+}
+
+.todayspec{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.todayspec img{
+    width: 320px;
+    height: 100px;
+    display: flex;
+    padding-left: 100px;
+}
+
+#carrrd{
+    background-color: black;
+    color: white;
+}
+#carrrd a{
+    color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: transparent;
+}
+#carrrd a:hover{
+    color: rgb(250, 232, 199);
+    background-color: rgb(43, 41, 41);
+    border: none;
+    transition: 1s;
+}
+.todaytext{
+    color: white;
+    margin-bottom: 100px;
+}
+.todaytext h4{
+    margin-left: 100px;
+}
+.todaytext p{
+    font-size: 12px;
+    cursor: pointer;
+}
+.todaytext p:hover{
+    color: rgb(188, 120, 120);
+}
+
+.todaytext button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(188, 120, 120);
+    border-radius: 5px;
+    font-size: 9px;
+}
+.todaybtn{
+    margin-top: -6px;
+}
+.todaytext button:hover{
+    color: aquamarine;
+    border: none;
+    background-color: rgb(73, 69, 69);
+    transition: 1;
+}
+
+.imgsec{
+    margin-top: 200px;
+}
+.img1 img{
+    height: 400px;
+    width: 700px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 1;
+}
+.space{
+    background-color: orange;
+    height: 250px;
+    margin-left: 60px;
+    margin-top: 70px;
+    z-index: 2;
+}
+.firsthead{
+    color: white;
+    margin-top: 150px;
+    margin-left: -52px;
+    z-index: 3;
+}
+.firsthead h3{
+    font-weight: 300;
+}
+
+.firstpara{
+    color: orange;
+    margin-left: 30px;
+}
+.firstpara p{
+    font-size: 10px;
+    cursor: pointer;
+}
+.firstpara p:hover{
+    color: white;
+}
+.imgsec2{
+    color: white;
+    margin-bottom: 100px;
+}
+.imgsec2 h3{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+.imgsec2 p{
+    margin-left: 100px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.imgsec2 img{
+    width: 500px;
+    height: 300px;
+    margin-top: -50px;
+    z-index: -2;
+}
+.footer img{
+    height: 200px;
+    width: 200px;
+    margin-top: -30px;
+    margin-left: 80px;
+}
+.footer p{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.footer input{
+    background-color: transparent;
+    border: 0.1px solid rgb(47, 31, 2);
+    width: 300px;
+}
+.footer label{
+    color: white;
+    font-size: 12px;
+}
+
+.email{
+    margin-top: -40px;
+}
+.phone{
+    margin-top: -15px;
+}
+.footer textarea{
+    background-color: transparent;
+    border: 0.1px solid rgb(47, 31, 2);
+    width: 200px;
+}
+.message{
+    margin-left: -80px;
+}
+.butt{
+    margin-left: -80px;
+    width: 200px;
+}
+.footer button{
+    color: white;
+    font-size: 8px;
+}
+.soicons img{
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+}
+.icon2{
+    margin-left: -65px;
+}
+.icon3{
+    margin-left: -65px;
+}
+.icon1{
+    margin-left: 20px;
+}
